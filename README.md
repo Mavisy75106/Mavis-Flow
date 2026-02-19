@@ -17,7 +17,7 @@ Stop managing your inbox; start focusing on your flow.
 - **🧠 Intelligent Summarization**: Concise, context-aware summaries of long threads.
 - **🏷️ Semantic Classification**: Automatically labels emails based on intent (Action Required, Informational, etc.).
 - **🛡️ Noise Reduction**: Identifies and suppresses non-essential notifications.
-- **🔒 Privacy-First**: Processes data securely with no third-party storage.
+- **🌐 Model Proxy**: Allows other OpenClaw instances (or any OpenAI-compatible client) to use your configured models via an OpenAI-compatible API.
 
 ## Getting Started
 
@@ -46,6 +46,22 @@ Stop managing your inbox; start focusing on your flow.
    pip install -r requirements.txt
    python main.py
    ```
+
+### Running the Model Proxy
+
+The proxy allows other clients to access your OpenClaw models through an OpenAI-compatible API.
+
+1. **Install requirements:**
+   ```bash
+   pip install flask
+   ```
+
+2. **Run the proxy:**
+   ```bash
+   python proxy/app.py
+   ```
+
+The proxy will be available at `http://localhost:18790/v1`.
 
 ## License
 
