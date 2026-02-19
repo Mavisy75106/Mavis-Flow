@@ -11,10 +11,10 @@
 
 **Mavis-Flow** is a lightweight automation tool built to solve inbox clutter. It leverages the underlying **OpenClaw** gateway of the host machine to access advanced language models, making it auth-agnostic and secure. 
 
-**Mavis-Flow** 是一款為了解決收件匣混亂而開發的輕量化自動化工具。它直接調用主機端底層的 **OpenClaw** 門戶來存取先進的語言模型，這使得它具備認證無關性（Auth-agnostic）且極其安全。
+**Mavis-Flow** 是一款為了解決收件匣混亂而開發的輕量化自動化工具集。它直接調用主機端底層的 **OpenClaw** 門戶來存取先進的語言模型，這使得它具備認證無關性（Auth-agnostic）且極其安全。
 
 Whether the host uses API keys or OAuth, Mavis-Flow simply relays requests through the local gateway.
-無論主機是使用 API Key 還是 OAuth 登入，Mavis-Flow 僅作為轉傳者，透過本地門戶處理請求，不涉及敏感金鑰存儲。
+無論主機是使用 API Key 還是 OAuth 登入，Mavis-Flow 僅作為轉傳者，透過本地門戶處理模型請求，不涉及敏感金鑰存儲。
 
 ---
 
